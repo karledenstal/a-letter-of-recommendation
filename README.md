@@ -30,8 +30,8 @@ You can gain a letter of recommendation from Wuunferth by completing "Blood on t
 
 ## Nelacar
 
-You can gain a letter of recommendation from Nelacar if you complete the quest "Azura's Star" in his favor. This recommendation may or may not be accepted by the College of Winterhold.
+Nelacar was asked to leave the College due to his experiments, and because of it he doesn't hold a lot of love for the College. If you have completed the quest "The Black Star" and you brought the star to him instead of Azura, he will happily give you falsified letters of recommendations from the other court wizards. You can also pay him to falsify the letters.
 
-## Falion
+## Delvin Mallory
 
-You can gain a letter of recommendation from Falion by blackmailing him during the quest "Falion's Secret". This will offer a special dialogue option to get a letter of recommendation from him, as well as an alternate ending where you don't report Falion. This recommendation may or may not be accepted by the College of Winterhold.
+In case you want to go a different route, you can head to the Thieves Guild and talk to Delvin Mallory. For a price, he'll make sure you get a letter of recommendation from each court wizard.
