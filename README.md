@@ -146,6 +146,8 @@ You can gain a letter of recommendation from Wuunferth by completing "Blood on t
 
 	**Player completed Blood on the Ice**
 
+	> "Of course, I'd be happy to write one for you. Here you go."
+
 	**Player has NOT Blood on the Ice**
 
 	> "I don't have time for this. There's a killer on the loose."
