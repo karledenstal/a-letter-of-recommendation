@@ -88,7 +88,23 @@ You can gain a letter of recommendation from Sybille by completing the quest "Th
 
 	- Can't you make an exception? (persuade)
 
+		**Failed**
+
+		> "Nice try, but I'm not going to risk my reputation on a stranger."
+
+		**Successful**
+
+		> "Well, you seem to be a promising student. I'll make an exception this time. Here you go."
+
 	- Would this gold change your mind? (bribe)
+
+		**Failed**
+
+		> "I'm not interested in your money."
+
+		**Successful**
+
+		> "Keep quiet about this, but I think you'd be a fine addition to the College. Here you go."
 
 ## Calcelmo
 
@@ -132,7 +148,7 @@ You can gain a letter of recommendation from Madena by completing the quest "Wak
 
 	**Player completed Waking Nightmare**
 
-	> "Fine fine, I'll write you a letter. Here you go."
+	> "Of course, I'd be happy to write one for you. Here you go."
 
 	**Player has NOT completed Waking Nightmare**
 
