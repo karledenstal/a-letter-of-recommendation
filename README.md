@@ -4,6 +4,8 @@ Makes it so you need to have a letter of recommendation from a court wizard to b
 
 There are plenty of ways to get the letters. Completing the required quests and/or being a thane is the "proper" way, but if your character is so inclined, you can try both bribing and persuading. And if that doesn't work, maybe you could try a little bit of pickpocketing.
 
+Start the quest by talking to Faralda on the bridge to the College in Winterhold.
+
 ## Farengar Secret-Fire
 
 You can gain a letter of recommendation from Farengar by either being a thane of Whiterun and completing the "Bleak Falls Barrow" quest. You can skip those and try and bribe or persuade him to give you one.
@@ -12,7 +14,7 @@ You can gain a letter of recommendation from Farengar by either being a thane of
 
 	**Player has not completed Bleak Falls Barrow OR is a thane**
 
-	> "You wish to join the College? I'm afraid I don't know you well enough to make a recommendation, perhaps if you were to assist me with my research..."
+	> "You wish to join the College? I'm afraid I don't know you well enough to make a recommendation. Perhaps if you were to assist me with my research..."
 
 	- Can't you make an exception? (persuade)
 
@@ -210,7 +212,7 @@ Nelacar was asked to leave the College due to his experiments, and because of it
 
 	**Player has not completed the Black Star**
 
-	> "A fair price. 5000 gold. I'll need the money up front, of course."
+	> "5000 gold. I'll need the money up front, of course."
 
 	**Player has the Black Star**
 
@@ -218,7 +220,7 @@ Nelacar was asked to leave the College due to his experiments, and because of it
 
 	- I'll take it.
 
-		> "Excellent. I'll get started right away. See me tomorrow and I'll have them ready for you."
+		> "I'll get started right away. See me tomorrow and I'll have them ready for you."
 
 	- I don't have that kind of money.
 

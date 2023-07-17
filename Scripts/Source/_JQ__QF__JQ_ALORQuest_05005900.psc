@@ -1,10 +1,15 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 7
+;NEXT FRAGMENT INDEX 8
 Scriptname _JQ__QF__JQ_ALORQuest_05005900 Extends Quest Hidden
 
-;BEGIN ALIAS PROPERTY FarengarLetter
+;BEGIN ALIAS PROPERTY Sybille
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_FarengarLetter Auto
+ReferenceAlias Property Alias_Sybille Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY WylandriahLetter
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_WylandriahLetter Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Wuunferth
@@ -12,9 +17,19 @@ ReferenceAlias Property Alias_FarengarLetter Auto
 ReferenceAlias Property Alias_Wuunferth Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Sybille
+;BEGIN ALIAS PROPERTY Madena
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Sybille Auto
+ReferenceAlias Property Alias_Madena Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Farengar
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Farengar Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY SybilleLetter
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SybilleLetter Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Wylandriah
@@ -27,24 +42,14 @@ ReferenceAlias Property Alias_Wylandriah Auto
 ReferenceAlias Property Alias_Calcelmo Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Madena
+;BEGIN ALIAS PROPERTY MadenaLetter
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Madena Auto
+ReferenceAlias Property Alias_MadenaLetter Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Faralda
+;BEGIN ALIAS PROPERTY FarengarLetter
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Faralda Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Farengar
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Farengar Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Nelacar
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Nelacar Auto
+ReferenceAlias Property Alias_FarengarLetter Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY CalcelmoLetter
@@ -52,19 +57,14 @@ ReferenceAlias Property Alias_Nelacar Auto
 ReferenceAlias Property Alias_CalcelmoLetter Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY WylandriahLetter
+;BEGIN ALIAS PROPERTY Faralda
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_WylandriahLetter Auto
+ReferenceAlias Property Alias_Faralda Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY SybilleLetter
+;BEGIN ALIAS PROPERTY Nelacar
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_SybilleLetter Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY MadenaLetter
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_MadenaLetter Auto
+ReferenceAlias Property Alias_Nelacar Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY WuunferthLetter
@@ -72,28 +72,18 @@ ReferenceAlias Property Alias_MadenaLetter Auto
 ReferenceAlias Property Alias_WuunferthLetter Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_3
-Function Fragment_3()
-;BEGIN CODE
-SetObjectiveCompleted(10)
-SetObjectiveDisplayed(20)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
-;BEGIN CODE
-CompleteAllObjectives()
-Stop()
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_1
 Function Fragment_1()
 ;BEGIN CODE
 SetObjectiveDisplayed(10)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_7
+Function Fragment_7()
+;BEGIN CODE
+SetObjectiveDisplayed(15)
 ;END CODE
 EndFunction
 ;END FRAGMENT
