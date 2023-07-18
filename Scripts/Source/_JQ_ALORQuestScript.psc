@@ -43,6 +43,7 @@ Function GiveAllLetters()
 		PlayerRef.AddItem(WuunferthLetter.GetReference(), 1)
 		PlayerRef.AddItem(WylandriahLetter.GetReference(), 1)
 
+		self.SetObjectiveCompleted(15)
 		self.SetStage(20)
 EndFunction
 
@@ -55,6 +56,7 @@ Function GiveLetter(Actor akSpeaker, ReferenceAlias akLetter)
 		LettersCollected.AddForm(LetterObj)
 
 		If (LettersCollected.GetSize() == 6)
+			self.SetObjectiveCompleted(10)
 			self.SetStage(20)
 		EndIf
 EndFunction
