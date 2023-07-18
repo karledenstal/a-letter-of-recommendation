@@ -28,7 +28,7 @@ You can gain a letter of recommendation from Farengar by either being a thane of
 
 	**Player has not completed Bleak Falls Barrow OR is a thane**
 
-	> "You wish to join the College? I'm afraid I don't know you well enough to make a recommendation. Perhaps if you were to assist me with my research..."
+	> "I don't have time for this. I'm busy doing important research about the dragons."
 
 	- Can't you make an exception? (persuade)
 
@@ -44,15 +44,15 @@ You can gain a letter of recommendation from Farengar by either being a thane of
 
 		**Successful**
 
-		> "On second thought, I think you'd be a fine addition to the College. Here's your letter."
+		> "A little coin greases the wheels."
 
 		**Failed**
 
-		> "You would have to cough up a lot more than that to get me to write a letter for you."
+		> "Nah, I don't think so."
 
 	**Player has completed Bleak Falls Barrow OR is a thane**
 
-	> "A prospective student, are you? With the help you've provided to me, I'd be happy to write one for you."
+	> "Ah yes. Here you go."
 
 ## Wylandriah
 
@@ -66,7 +66,7 @@ You can gain a letter of recommendation from Wylandriah by either being a thane 
 
 	**Player has not completed Hunt and Gather AND is not a thane of the Rift**
 
-	> "You wish to join the College? I'm afraid I don't know you well enough to make a recommendation."
+	> "Sory, I can't help you. Now where did I put my spoon..."
 
 	- Did you forget you promised to write me one? (persuade)
 
@@ -76,17 +76,17 @@ You can gain a letter of recommendation from Wylandriah by either being a thane 
 
 		**Failed**
 
-		> "I'm sorry, I don't remember promising you anything."
+		> "Nah, I don't think so."
 
 	- Could this gold change your mind? (bribe)
 
 		**Successful**
 
-		> "That's very generous of you. I'll write one for you right now."
+		> "A little coin greases the wheels."
 
 		**Failed**
 
-		> "Gold? I don't need gold. I need to get back to my work."
+		> "Nah, I don't think so."
 
 ## Sybille Stentor
 
@@ -96,31 +96,31 @@ You can gain a letter of recommendation from Sybille by completing the quest "Th
 
 	**Player is thane of Haafingar or completed The Wolf Queen Awakened**
 
-	> "You're looking to join the College, then. Here, this letter should suffice."
+	> "Here you go."
 
 	**Player is not thane of Haafingar and has not completed The Wolf Queen Awakened**
 
-	> "You wish to join the College? I'm afraid I don't know you well enough to make a recommendation."
+	> "There are more important things to worry about. If you can clear up some of the problems around here, I might be willing to write you a letter."
 
 	- Can't you make an exception? (persuade)
 
 		**Failed**
 
-		> "Nice try, but I'm not going to risk my reputation on a stranger."
+		> "Nah, I don't think so."
 
 		**Successful**
 
-		> "Well, you seem to be a promising student. I'll make an exception this time. Here you go."
+		> "Very well. Here you go."
 
 	- Would this gold change your mind? (bribe)
 
 		**Failed**
 
-		> "I'm not interested in your money."
+		> "Nah, I don't think so."
 
 		**Successful**
 
-		> "Keep quiet about this, but I think you'd be a fine addition to the College. Here you go."
+		> "Very well. Here you go."
 
 ## Calcelmo
 
@@ -128,19 +128,19 @@ You can gain a letter of recommendation from Calcelmo by completing the quests "
 
 - I need a letter of recommendation.
 
-	**Player completed Nimhe, The Poisoned One and The Lost Expedition**
+	**Player completed Nimhe, The Poisoned One**
 
 	> "Fine fine, I'll write you a letter. Here you go."
 
-	**Player has NOT completed Nimhe, The Poisoned One and The Lost Expedition**
+	**Player has NOT completed Nimhe, The Poisoned One**
 
-	> "I don't know you well enough to make a recommendation."
+	> "I don't have time for this. I'm busy doing important research about the Dwemer. That blasted spider is blocking my way to the ruins."
 
 	- Can't you make an exception? (persuade)
 
 		**Failed**
 
-		> "No, I don't think so."
+		> "Nah, I don't think so."
 
 		**Success**
 
@@ -150,7 +150,7 @@ You can gain a letter of recommendation from Calcelmo by completing the quests "
 
 		**Failed**
 
-		> "I'm not interested in your money."
+		> "Nah, I don't think so."
 
 		**Success**
 
@@ -178,7 +178,7 @@ You can gain a letter of recommendation from Wuunferth by completing "Blood on t
 
 	**Player completed Blood on the Ice**
 
-	> "Of course, I'd be happy to write one for you. Here you go."
+	> "Here you go."
 
 	**Player has NOT Blood on the Ice**
 
