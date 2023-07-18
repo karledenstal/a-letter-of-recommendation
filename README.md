@@ -66,7 +66,7 @@ You can gain a letter of recommendation from Wylandriah by either being a thane 
 
 	**Player has not completed Hunt and Gather AND is not a thane of the Rift**
 
-	> "Sory, I can't help you. Now where did I put my spoon..."
+	> "Sorry, I can't help you. Now where did I put my spoon..."
 
 	- Did you forget you promised to write me one? (persuade)
 
