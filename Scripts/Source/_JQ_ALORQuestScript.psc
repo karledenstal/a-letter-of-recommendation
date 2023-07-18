@@ -11,6 +11,7 @@ ReferenceAlias Property WylandriahLetter Auto
 GlobalVariable Property GameDaysPassed Auto
 GlobalVariable Property DelayTime Auto
 MiscObject Property Gold001 Auto
+FormList Property LettersCollected Auto
 
 Function TriggerStart()
 		; This function is called when the quest starts running
@@ -25,7 +26,7 @@ Function NelacarCheatDelay(Int ShouldPay = 0)
 		EndIf
 
 		Debug.Trace("ALOR: Nelacar cheat delay")
-		Float fDelay = GameDaysPassed.GetValue() + 12.0
+		Float fDelay = GameDaysPassed.GetValue() + 0.50
 		DelayTime.SetValue(fDelay)
 		self.SetObjectiveCompleted(10)
 		self.SetStage(15)
@@ -49,7 +50,9 @@ Function GiveLetter(Actor akSpeaker, ReferenceAlias akLetter)
 		akSpeaker.RemoveItem(LetterObj, 1)
 		PlayerRef.AddItem(LetterObj, 1)
 
-		If (PlayerRef.GetItemCount(FarengarLetter.GetReference()) == 1 && PlayerRef.GetItemCount(CalcelmoLetter.GetReference()) == 1 && PlayerRef.GetItemCount(MadenaLetter.GetReference()) == 1 && PlayerRef.GetItemCount(SybilleLetter.GetReference()) == 1 && PlayerRef.GetItemCount(WuunferthLetter.GetReference()) == 1 && PlayerRef.GetItemCount(WylandriahLetter.GetReference()) == 1)
+		LettersCollected.AddForm(LetterObj)
+
+		If (LettersCollected.GetSize() == 6)
 			self.SetStage(20)
 		EndIf
 EndFunction
