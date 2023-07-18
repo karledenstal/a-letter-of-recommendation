@@ -1,12 +1,12 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 1
-Scriptname _JQ__TIF__05033251 Extends TopicInfo Hidden
+Scriptname _JQ__TIF__0509867C Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-(GetOwningQuest() as _JQ_ALORQuestScript).PersuadedNelacar = 1
+(GetOwningQuest() as _JQ_ALORQuestScript).NelacarCheatDelay(1)
 ;END CODE
 EndFunction
 ;END FRAGMENT

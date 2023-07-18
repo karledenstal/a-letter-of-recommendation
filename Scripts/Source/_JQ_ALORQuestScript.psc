@@ -14,12 +14,14 @@ MiscObject Property Gold001 Auto
 FormList Property LettersCollected Auto
 
 Int Property AskedAboutCheat Auto Conditional
+Int Property PersuadedNelacar Auto Conditional
 
 Function TriggerStart()
-		; This function is called when the quest starts running
-		Debug.Trace("ALOR: Quest started")
-		self.Start()
-		self.SetStage(10)
+		If (!self.IsRunning())
+			Debug.Trace("ALOR: Quest started")
+			self.Start()
+			self.SetStage(10)
+		EndIf
 EndFunction
 
 Function NelacarCheatDelay(Int ShouldPay = 0)
