@@ -1,4 +1,4 @@
-Scriptname _JQ_ALORQuestScript extends Quest 
+Scriptname _JQ_ALORQuestScript extends Quest Conditional
 
 Actor Property PlayerRef Auto
 ReferenceAlias Property FarengarLetter Auto
@@ -12,6 +12,8 @@ GlobalVariable Property GameDaysPassed Auto
 GlobalVariable Property DelayTime Auto
 MiscObject Property Gold001 Auto
 FormList Property LettersCollected Auto
+
+Int Property AskedAboutCheat Auto Conditional
 
 Function TriggerStart()
 		; This function is called when the quest starts running

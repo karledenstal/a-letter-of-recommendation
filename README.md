@@ -6,6 +6,20 @@ There are plenty of ways to get the letters. Completing the required quests and/
 
 Start the quest by talking to Faralda on the bridge to the College in Winterhold.
 
+> "Not just anyone is allowed inside. In order to be considered, you need to get recommendations from the court wizards of the holds of Skyrim."
+
+- How can I get a recommendation?
+
+> "That's up to the court wizard to decide. They always need help with their various projects, so they might be willing to give you a recommendation if you assist them."
+
+- Why do I need a recommendation?
+
+> "It's no secret that the College's reputation in Skyrim is tainted. The people have come to fear us more than they do the Thalmor. This is done to protect the College, and the world, from those who would abuse our power."
+
+- Is there any other way to get a recommendation?
+
+> "If you can convince the court wizard that you are worthy, I'm sure they'd be willing to give you a recommendation. Or, if you're the thane of a hold, you may be able to convince them to give you one."
+
 ## Farengar Secret-Fire
 
 You can gain a letter of recommendation from Farengar by either being a thane of Whiterun and completing the "Bleak Falls Barrow" quest. You can skip those and try and bribe or persuade him to give you one.
@@ -198,9 +212,11 @@ You can gain a letter of recommendation from Wuunferth by completing "Blood on t
 
 Nelacar was asked to leave the College due to his experiments, and because of it he doesn't hold a lot of love for the College. If you have completed the quest "The Black Star" and you brought the star to him instead of Azura, he will happily give you falsified letters of recommendations from the other court wizards. You can also pay him to falsify the letters.
 
-*Continuation from "You're with the college?" dialogue*
+- About the College...
 
-- Do you know how I can get a letter of recommendation?
+	> "Yes?"
+
+- How I can get a letter of recommendation?
 
 	> "You would need to ask each of the court wizards. I'm afraid I can't help you with that."
 
