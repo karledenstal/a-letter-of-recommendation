@@ -17,11 +17,9 @@ Int Property AskedAboutCheat Auto Conditional
 Int Property PersuadedNelacar Auto Conditional
 
 Function TriggerStart()
-		If (!self.IsRunning())
-			Debug.Trace("ALOR: Quest started")
-			self.Start()
-			self.SetStage(10)
-		EndIf
+		Debug.Trace("ALOR: Quest started")
+		self.Start()
+		self.SetStage(10)
 EndFunction
 
 Function NelacarCheatDelay(Int ShouldPay = 0)
