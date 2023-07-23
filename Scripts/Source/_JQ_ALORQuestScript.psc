@@ -7,7 +7,6 @@ ReferenceAlias Property MadenaLetter Auto
 ReferenceAlias Property SybilleLetter Auto
 ReferenceAlias Property WuunferthLetter Auto
 ReferenceAlias Property WylandriahLetter Auto
-
 GlobalVariable Property GameDaysPassed Auto
 GlobalVariable Property DelayTime Auto
 MiscObject Property Gold001 Auto
